@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 from de import DifferentialEvo
-from parte_1.de.utils.obj_plot import func_plot
+from plot import func_plot
 
 def schwefel(x, y, z):
     x_sin = x * np.sin(np.sqrt(np.abs(x)))

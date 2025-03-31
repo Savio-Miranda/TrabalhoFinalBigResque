@@ -38,7 +38,7 @@ def plot_swarm(title: str, swarm: Swarm, iterations: int, xmin: float, ymin: flo
                                   c='blue', marker='o', alpha=0.7, label='Partículas')
     scatter_gbest = ax1.scatter(gbest[0], gbest[1], np.clip(gbest[2], 0, space["resolution"]), 
                               c='red', marker='*', s=200, label='Melhor Global')
-    scatter_min = ax1.scatter([xmin], [ymin], [np.clip(zmin, 0, space["resolution"])], 
+    scatter_min_global = ax1.scatter([xmin], [ymin], [fmin], 
                             c='black', marker='X', s=200, label='Mínimo Global')
     ax1.legend()
     

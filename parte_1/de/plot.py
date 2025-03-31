@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+
 def func_plot(title: str, pop: np.ndarray, xmin: float, ymin: float, zmin: float, fmin: float, space: dict, z_lim: tuple, alpha: float, ax: plt.Axes, obj):
     # ========== Visualização da Superfície 3D (z variável) ==========
     x = np.linspace(space["x_min"], space["x_max"], space["resolution"])  # Resolução reduzida para performance
