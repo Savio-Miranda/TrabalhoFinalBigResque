@@ -1,0 +1,6 @@
+[X] melhorar parâmetros
+[X] visualização de indivíduos
+[X] animação de gráficos
+[X] gráficos de cada geração 
+[X] plot do fitness 1 parte
+[] melhorar 2 parte: há piora após atingir ponto ótimo
